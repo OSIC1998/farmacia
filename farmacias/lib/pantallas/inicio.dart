@@ -355,7 +355,15 @@ class _inicioState extends State<inicio> {
           ),
         );
       }),
-    ):Container(height: 10,),
-      );
+    ):Container(
+      height: 400,
+      child: Center(
+        child: Image(
+          image: AssetImage('images/logo.jpeg'),
+          height: 140,
+        ),
+      ),
+      ),
+    );
   }
 }
